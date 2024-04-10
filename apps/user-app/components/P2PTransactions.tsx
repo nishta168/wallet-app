@@ -53,7 +53,7 @@ export default function P2PTransactions({
                         <div>
                             {x.toUser.name}
                         </div >                
-                        <div className={x.toUserId == thisUserId ? "text-green-500 " : "text-red-500"}>
+                        <div className={x.toUserId == thisUserId ? "text-green-500 " : "text-gray-500"}>
                             {x.toUserId == thisUserId ? "+" : "-"} ₹{x.amount/100}
                         </div>
                     </div>

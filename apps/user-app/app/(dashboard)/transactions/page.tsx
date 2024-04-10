@@ -1,7 +1,6 @@
 import { getServerSession } from "next-auth"
 import { authOptions } from "../../lib/auth"
 import db from "@repo/db/client"
-import { Card } from "@repo/ui/card";
 import P2PTransactions from "../../../components/P2PTransactions";
 
 const getTransactions  = async () => {
